@@ -1,7 +1,7 @@
 
-//v 1.0
-var func = (x) => {
-    return Math.pow(x,2);
+//v 1.1
+var func = (x,y) => {
+    return x**y;
 }
 
-console.log(func(5))
+console.log(func(5,2))
